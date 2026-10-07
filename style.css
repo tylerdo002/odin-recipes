@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    /* outline: 2px solid rgb(18, 168, 103); */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+
+
+.homecard {
+    padding: 50px;
+    background-color: rgb(175, 198, 207);
+    margin: 2em 2em;
+}
+
+.homelist {
+    background-color: rgb(175, 198, 207);
+    display: ;
+    margin: 1em 2em;
+}
+
+h1,
+h2,
+h3 {
+    padding: 5px 20px;
+    background-color: rgba(17, 190, 209, 0.521);
+    margin: 5px 20px;
+    text-align: center;
+    color: white;
+}
+
+
+p,
+li,
+a {
+    color: white;
+    font-size: 18px;
+    padding: 2px 1em;
+    margin: 0 2em;
+}
+
+a {
+    background-color: rgba(17, 190, 209, 0.521);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
