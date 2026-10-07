@@ -2,33 +2,50 @@
     box-sizing: border-box;
     /* outline: 2px solid rgb(18, 168, 103); */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
-
 
 
 .homecard {
     padding: 50px;
-    background-color: rgb(175, 198, 207);
+    background-color: rgb(13, 56, 73);
+    margin: 2em 20em;
+}
+
+.recipecard {
+    padding: 20px 50px;
+    background-color: rgb(13, 43, 54);
     margin: 2em 2em;
 }
 
 .homelist {
-    background-color: rgb(175, 198, 207);
+    background-color: rgb(13, 56, 73);
     display: ;
     margin: 1em 2em;
 }
 
-h1,
-h2,
-h3 {
-    padding: 5px 20px;
+h1 {
+    padding: 5px;
     background-color: rgba(17, 190, 209, 0.521);
-    margin: 5px 20px;
+    margin: 10px 0px;
     text-align: center;
     color: white;
 }
 
+
+h2,
+h3 {
+    padding: 5px;
+    background-color: rgba(17, 190, 209, 0.521);
+    margin: 10px 0px;
+    text-align: left;
+    color: white;
+}
+
+.navbar {
+    padding: 2px 3em;
+    background-color: rgb(13, 43, 54);
+}
 
 p,
 li,
@@ -36,7 +53,6 @@ a {
     color: white;
     font-size: 18px;
     padding: 2px 1em;
-    margin: 0 2em;
 }
 
 a {
